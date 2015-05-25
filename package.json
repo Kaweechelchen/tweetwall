@@ -1,0 +1,24 @@
+{
+  "name": "tweetwall",
+  "version": "1.0.0",
+  "description": "Tweetwall for @hack_lu",
+  "main": "app.js",
+  "dependencies": {
+    "socket.io": "^1.3.5",
+    "twitter": "^1.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaweechelchen/tweetwall.git"
+  },
+  "author": "Thierry Degeling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kaweechelchen/tweetwall/issues"
+  },
+  "homepage": "https://github.com/Kaweechelchen/tweetwall#readme"
+}

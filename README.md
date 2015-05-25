@@ -1,2 +1,2 @@
-# tweetwall
-Tweetwall for @hack_lu
+# hackLuWall
+TweetWall for Hack.lu
