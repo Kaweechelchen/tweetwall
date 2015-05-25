@@ -32,7 +32,7 @@ var twee = io.of('tweet');
 
 twit.stream('statuses/filter', { track: 'hacklu,hack_lu' }, function(stream) {
   stream.on('data', function (data) {
-    io.sockets.emit('tweet', data.text);
-    console.log('.');
+    io.sockets.emit('tweet', data);
+    console.log('data.text');
   });
 });

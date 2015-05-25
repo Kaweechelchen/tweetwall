@@ -8,7 +8,8 @@
 <script>
   var socket = io.connect('/'),
       tweets = document.getElementById('tweets');
-  socket.on('tweet', function (data) {
-    tweets.innerHTML = tweets.innerHTML + '<br>' + data;
+    socket.on('tweet', function (data) {
+      console.log( data );
+      tweets.innerHTML = tweets.innerHTML + '<br>' + data.text;
   });
 </script>
