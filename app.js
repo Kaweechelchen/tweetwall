@@ -33,6 +33,5 @@ var twee = io.of('tweet');
 twit.stream('statuses/filter', { track: 'luxembourg,hack,hacklu,hack_lu,hack.lu' }, function(stream) {
   stream.on('data', function (data) {
     io.sockets.emit('tweet', data);
-    console.log('data.text');
   });
 });
