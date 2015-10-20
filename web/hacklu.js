@@ -60,7 +60,7 @@ var socket = io.connect( 'https://tweets.mona.lu:1337' );
 
 function refreshTime() {
 
-  var hacklu = moment( [ 2015, 9, 20 ] );
+  var hacklu = moment( [ 2015, 9, 19 ] );
   var diff   = moment().diff( hacklu, 'days' );
 
   $('.currentDay').text( 'Day ' + diff );
